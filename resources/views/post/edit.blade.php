@@ -9,7 +9,7 @@
             <!-- 更新失敗跳出錯誤訊息 -->
             @if($errors->any())
                 <div class="alert alert-danger">
-                    <ul>
+                    <ul style="margin:0;">
                         @foreach($errors->all() as $error)
                             <li>{{$error}}</li>
                         @endforeach
